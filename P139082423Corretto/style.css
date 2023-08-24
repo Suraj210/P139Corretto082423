@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #abb8c3;
+}
+
+::selection {
+  background: #be9c79;
+  color: #fff;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#offers {
+  margin: 80px 0;
+}
+
+.coffee-text {
+  text-align: center;
+}
+
+.coffee-text img {
+  padding: 20px 0;
+}
+
+.coffee-text p {
+  font-size: 18px;
+  line-height: 1.55em;
+  font-style: normal;
+  font-weight: 300;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.all-offers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.offer {
+  width: 20%;
+}
+
+.offer img {
+  margin-left: 50px;
+}
+
+.offer h1 {
+  margin: 25px 0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.offer p {
+  text-align: center;
+}
+
+.offer h1:hover {
+  color: #be9c79;
+}
+
+#heralds {
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+#heralds .coffee-text p {
+  color: black;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card {
+  width: 30%;
+}
+
+.image:hover img {
+  transform: scale(1.3);
+}
+
+.image {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  transition: 0.6s;
+}
+
+.card h1 {
+  margin: 25px 0;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.card h1:hover {
+  color: #be9c79;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  transition: 0.6s;
+}
+
+.card a::before {
+  content: "";
+  position: absolute;
+  width: 13%;
+  height: 1px;
+  background-color: black;
+  top: 8px;
+  transition: 0.6s;
+  left: -20px;
+}
+
+.card a:hover {
+  color: #be9c79;
+  transform: translateX(10px);
+}
+
+.card a:hover::before {
+  width: 18%;
+  background-color: #be9c79;
+}
+
+#bg-logo {
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  padding: 8rem 0;
+}
